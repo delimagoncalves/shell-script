@@ -13,3 +13,4 @@ echo "Nome do host: " $(hostname)
 echo "Criando arquivo temporário: " $(mktemp ./tmp.XXX)
 echo "Criando arquivo oculto. " $(touch .oculto)
 echo "Somando 2 + 1 : " $(echo "2+1" | bc)
+echo " "
